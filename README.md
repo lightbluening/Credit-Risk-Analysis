@@ -19,9 +19,11 @@ The dataset incorporates numerical input variables that have been derived from a
 # Challenge of the Analysis
 
 **Imbalanced Data**
+
 The biggest challenge of this analysis is how to deal with **imbalanced data**, as the **fraudulent transaction only accounts for 0.17% of the dataset**. If we use the undersampling method, 99% of the majority data will be dropped, leading to potential inaccuracies in the training data. Therefore, we opt for the **SMOTE oversampling method**. SMOTE (Synthetic Minority Oversampling Technique) is employed to generate synthetic elements for the minority class. This technique works by selecting examples closely located in the feature space, creating a line between them, and generating new samples along that line. However, it is important to consider that the oversampling method may result in higher computation costs, so we should carefully consider which algorithms to use when building models.
 
 **Evaluation Metrics to Choose**
+
 In the context of imbalanced datasets, where the majority class (genuine transactions) heavily outweighs the minority class (fraudulent transactions), the overall accuracy can be misleading and not a reliable performance metric. Instead, it's crucial to focus on metrics that specifically evaluate the model's ability to correctly identify fraud instances.
 
 The three main metrics that are commonly used in such cases are:
