@@ -1,6 +1,6 @@
 # **Credit Card Fraud Detection**
 
-> **Source:**https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?datasetId=310&sortBy=voteCount
+>
 ![image](https://github.com/lightbluening/Credit-Risk-Analysis/assets/93415125/3a00a0f2-871c-47ea-ab4c-c1d28ba4cad7)
 
 
